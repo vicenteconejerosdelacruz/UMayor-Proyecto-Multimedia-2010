@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiiMoteUmayor", "WiiMoteUmayor.vcproj", "{393C56D9-7F2E-42A1-AAE8-04DD6EBDD64D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{393C56D9-7F2E-42A1-AAE8-04DD6EBDD64D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{393C56D9-7F2E-42A1-AAE8-04DD6EBDD64D}.Debug|Win32.Build.0 = Debug|Win32
+		{393C56D9-7F2E-42A1-AAE8-04DD6EBDD64D}.Release|Win32.ActiveCfg = Release|Win32
+		{393C56D9-7F2E-42A1-AAE8-04DD6EBDD64D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

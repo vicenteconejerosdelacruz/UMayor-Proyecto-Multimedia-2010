@@ -1,0 +1,29 @@
+struct vsOUT
+{
+	float4 pos:POSITION;
+	float2 uv0:TEXCOORD0;
+};
+
+struct vsIN
+{
+	float3 pos:POSITION;
+	float2 uv0:TEXCOORD0;
+};
+
+void main_vs(in vsIN input,out vsOUT output)
+{
+	output.pos = float4(input.pos,1);
+	output.uv0 = input.uv0;
+}
+
+sampler albedoTexture:register(s0);
+
+struct psOUT
+{
+	float4 color:COLOR0;
+};
+
+void main_ps(in vsOUT input,out psOUT output)
+{
+	output.color = tex2D(albedoTexture,input.uv0.xy);
+}
